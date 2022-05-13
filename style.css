@@ -106,11 +106,22 @@
 }
 
 
+
 @media screen and (max-width: 786px) {
    .box {
      width: 100%;
      flex-wrap: wrap;
    }
+
+   .website-txt {
+    margin-left: 50px;
+  }
+  .line {
+    margin-left: 50px;
+  }
+  .logo {
+    margin-left: 20px;
+  }
    .container-1, .container-2 { 
       width: 400px;
       height: 400px;
@@ -119,14 +130,30 @@
      justify-content: center;
      width: 400px;
      height: 350px;
+     margin-top: 100px;
    }
    .footer {
-     margin-top: 100px;
+     margin-top: 280px;
      flex-wrap: wrap;
      display: flex;
      justify-content: center;
      align-items: center;
+     /* background-color: orange; */
      height: 300px;
+   }
+
+   .last-foot, .last-foot-2 {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   .insta-foot {
+     justify-content: center;
+     align-items: center;
+   }
+   .para {
+     margin-left: 50px;
    }
    /* .last-foot {
      width: 200px;
